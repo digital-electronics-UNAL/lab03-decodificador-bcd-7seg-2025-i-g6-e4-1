@@ -17,7 +17,7 @@ Indice:
 6. [Conclusiones](#conclusiones)
 
 ## 1. Diseño implementado
-
+<p>Dejar esto pa sincronizar</p>
 ### 2. Descripción
 
 ### 3. Diagramas
