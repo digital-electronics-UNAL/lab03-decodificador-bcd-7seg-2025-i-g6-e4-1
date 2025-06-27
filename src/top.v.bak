@@ -1,0 +1,25 @@
+module top(
+    input clk2,
+    output [3:0] an,
+    input [4:0] input_val,
+    output [6:0] sseg
+);
+
+wire [3:0] BCD;
+wire [3:0] sel_an;
+
+bcd_splitter U1 (
+    .clk2(clk2), //INPUT
+    .input_val(input_val), //INPUT
+    .BCD(BCD),
+    .sel_an(sel_an) //
+);
+
+BCDtoSSeg U2 (
+    .BCD(BCD), //OUTPUT
+    .SSeg(sseg),
+    .an(an),
+    .sel_an(sel_an)
+);
+
+endmodule
