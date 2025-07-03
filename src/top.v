@@ -1,6 +1,6 @@
-`include "freq_div.v"
-`include "bcd_splitter.v"
-`include "BCDtoSSeg.v"
+`include "src/freq_div.v"
+`include "src/bcd_splitter.v"
+`include "src/BCDtoSSeg.v"
 module top(
     input clk,
     input [4:0] input_val,
