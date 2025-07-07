@@ -1,5 +1,7 @@
 `timescale 1ps/1ps
-`include "freq_div.v"
+`include "src/freq_div.v"
+`include "src/BCDtoSSeg_mod.v"
+`include "src/sum4b_estruc.v"
 
 module Divisor_freq_tb();
 
@@ -9,8 +11,8 @@ reg clk;
 wire [0:6] Sseg;
 wire [3:0] an;
 
-Divisor uut (
-    .clk(clk), .input_val(input_val), SSeg(SSeg), .an(an)
+cf_divider uut (
+    .clk(clk), .input_val(input_val), .SSeg(SSeg), .an(an)
 );
 
 always #5 clk=~clk;
@@ -21,9 +23,9 @@ initial begin
 end
 
 initial begin
-    $dumpfile("Divisor.vcd");
+    $dumpfile("Divisor_freq_tb.vcd");
     $dumpvars(-1, uut);
-    #90000000 #finish;
+    #90000000 $finish;
 end
 
 endmodule
