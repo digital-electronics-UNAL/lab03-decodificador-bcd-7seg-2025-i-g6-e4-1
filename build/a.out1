@@ -1,16 +1,24 @@
-**** module/scope: cf_divider
-     Flip-Flops   : 21
-     Logic Gates  : 145
-     ADDER[20]: 1 units
+**** module/scope: calc_core
+     Flip-Flops   : 0
+     Logic Gates  : 131
+     ADDER[16]: 1 units
      EQUALITY[32]: 1 units
-     MUX[2]: 20 slices
+     MUX[2]: 17 slices
+     LPM[4]: 1 unaccounted
+     LPM[5]: 3 unaccounted
+     LPM[8]: 1 unaccounted
+     LPM[12]: 1 unaccounted
      LOG[13]: 1 unaccounted
      LOG[14]: 1 unaccounted
 **** TOTALS
-     Flip-Flops   : 21
-     Logic Gates  : 145
-     ADDER[20]: 1 units
+     Flip-Flops   : 0
+     Logic Gates  : 131
+     ADDER[16]: 1 units
      EQUALITY[32]: 1 units
-     MUX[2]: 20 slices
+     MUX[2]: 17 slices
+     LPM[4]: 1 unaccounted
+     LPM[5]: 3 unaccounted
+     LPM[8]: 1 unaccounted
+     LPM[12]: 1 unaccounted
      LOG[13]: 1 unaccounted
      LOG[14]: 1 unaccounted
