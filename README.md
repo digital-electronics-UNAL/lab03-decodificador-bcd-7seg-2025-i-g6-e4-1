@@ -41,10 +41,17 @@ En concordancia con lo dispuesto en la guía, lo que se buscaba era la realizaci
 <p>De los códigos, hay un grupo de módulos que se crearon para la implmentación de las tres partes en la Cyclone IV. Se partió desde el código de 7 segmentos original, un módulo de BCD conjunto con una entrada de la señal de <i>CLOCK</i>, los módulos estructurales del sumador de 1 bit y 4 bits, un divisor de frecuencia y un módulo principal para las respectivas instancias que deban hacerse.</p>
 <p>Se presentarán a continuación los diferentes módulos incluidos en la práctica para hacer posible implementación de la práctica:</p>
 <h6>Módulo BCDtoSSeg (Módulo principal para los displays de 7 segmentos):</h6>
-
-
+<img src="img/BCDtoSSeg.png" alt="Código de Displays" width="400"/>
+<h6>Módulo BCDtoSSeg_mod (Módulo de interacción y separación de displays):</h6>
+<img src="img/BCDtoSSeg_mod.png" alt="Código de Separación" width="400"/>
+<h6>Módulos Sumadores de 1 y 4 bits:</h6>
+<img src="sum1b_estruc.png" alt="Sumador de 1 bit" width="400"/>
+<img src="sum4b_estruc.png" alt="Sumador de 4 bits" width="400"/>
+<h6>Módulo freq.div (Módulo de acoplamiento para la señal de clock):</h6>
+<img src="freq_div.png" alt="Divisor de Frecuencia" width="400"/>
+<h6>Módulo top (Módulo principal para instanciamiento de módulos adicionales):</h6>
+<img src="top.png" alt="Módulo top" width="400"/>
 <h2>4. Simulaciones</h2>
-
 
 <h2>5. Implementación</h2>
 
