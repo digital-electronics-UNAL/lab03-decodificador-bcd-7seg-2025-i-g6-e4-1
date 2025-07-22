@@ -52,7 +52,7 @@ En concordancia con lo dispuesto en la guía, lo que se buscaba era la realizaci
 <h6>Módulo top (Módulo principal para instanciamiento de módulos adicionales):</h6>
 <img src="top.png" alt="Módulo top" width="400"/>
 <h2>4. Simulaciones</h2>
-
+<p>Para la simulación de la práctica, se utilizó el programa Icarus Verilog para determinar la correlación de los diagramas temporales de las variables de estudio.
 <h2>5. Implementación</h2>
 
 <h2>6. Conclusiones</h2>
