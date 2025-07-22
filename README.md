@@ -52,7 +52,8 @@ En concordancia con lo dispuesto en la guía, lo que se buscaba era la realizaci
 <h6>Módulo top (Módulo principal para instanciamiento de módulos adicionales):</h6>
 <img src="img/top.png" alt="Módulo top" width="400"/>
 <h2>4. Simulaciones</h2>
-<p>Para la simulación de la práctica, se utilizó el programa Icarus Verilog para determinar la correlación de los diagramas temporales de las variables de estudio.
+<p>Para la simulación de la práctica, se utilizó el programa Icarus Verilog para determinar la correlación de los diagramas temporales de las variables de estudio. A continuación, se presentará la simulación del análisis de algunas de laas variables de estudio en la instanciación del módulo principal para la implementación de la práctica en la Cyclone IV:</p>
+<img src="img/Simulación.png> alt="Simulación" width="400"/>
 <h2>5. Implementación</h2>
 <p>Para la implementación en la Cyclone </p>
 <h2>6. Conclusiones</h2>
