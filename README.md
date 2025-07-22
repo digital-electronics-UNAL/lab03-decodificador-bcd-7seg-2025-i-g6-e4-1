@@ -39,6 +39,9 @@ En concordancia con lo dispuesto en la guía, lo que se buscaba era la realizaci
 <p>En la última imagen consignada, se encuentra la representación de la lógica a aplicar en la práctica de laboratorio, en la que por medio de su implementación, sería posible representar hasta el número 255 en los displays de 7 segmentos. Estos, al ser números de 8 bits, requerían necesario la instalación temporal de bancos de interruptores adicionales para que la cantidad fuese suiciente. Estos bancos de interruptores DIP adicionales debían ser instalados por medio de una placa protoboard, conectados a un grupo de pines de propósito general de la Cyclone IV, para poder efectuar su asignación.</p>
 <h2>3. Diagramas</h2>
 <p>De los códigos, hay un grupo de módulos que se crearon para la implmentación de las tres partes en la Cyclone IV. Se partió desde el código de 7 segmentos original, un módulo de BCD conjunto con una entrada de la señal de <i>CLOCK</i>, los módulos estructurales del sumador de 1 bit y 4 bits, un divisor de frecuencia y un módulo principal para las respectivas instancias que deban hacerse.</p>
+<p>Se presentarán a continuación los diferentes módulos incluidos en la práctica para hacer posible implementación de la práctica:</p>
+<h6>Módulo BCDtoSSeg (Módulo principal para los displays de 7 segmentos):</h6>
+
 
 <h2>4. Simulaciones</h2>
 
