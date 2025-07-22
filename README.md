@@ -60,7 +60,7 @@ En concordancia con lo dispuesto en la guía, lo que se buscaba era la realizaci
 <h2>6. Conclusiones</h2>
 <ol>
   <li>La implmentación y representación de diversos números en un display de 7 segmentos siempre será posible, bajo el conocimiento aplicado necesario para la comprensión de la realización de una práctica de laboratorio.</li>
-  <i>La comprensión de un display de 7 segmentos es la antesala para la implementación en una pantalla LCD de 8x2 o 16x2, la cual es de un carácter más profesional en el momento de un montaje.</i>
+  <li>La comprensión de un display de 7 segmentos es la antesala para la implementación en una pantalla LCD de 8x2 o 16x2, la cual es de un carácter más profesional en el momento de un montaje.</li>
   <li>Los displays de 7 segmentos parten de la lógica combinacional, no obstante, son elementos que son capaces de trabajar perfectamente en aplicaciones de lógica secuencial, permitiendo se estudio en tales prácticas.</li>
 </ol>
 
