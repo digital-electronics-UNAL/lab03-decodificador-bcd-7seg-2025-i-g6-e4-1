@@ -55,8 +55,14 @@ En concordancia con lo dispuesto en la guía, lo que se buscaba era la realizaci
 <p>Para la simulación de la práctica, se utilizó el programa Icarus Verilog para determinar la correlación de los diagramas temporales de las variables de estudio. A continuación, se presentará la simulación del análisis de algunas de laas variables de estudio en la instanciación del módulo principal para la implementación de la práctica en la Cyclone IV:</p>
 <img src="img/Simulación.png" alt="Simulación" width="400"/>
 <h2>5. Implementación</h2>
-<p>Para la implementación en la Cyclone IV se logró realizar las dos primeras partes con éxito, logrando realizar la conexión de un solo displays, y luego la conexión a ánodo común para la conexión de 4 displays. La tercera parte, en la separación de unidades decenas y centenas, se logró realizar la práctica hasta la separación de decenas y unidades, pero con la particularidad </p>
+<p>Para la implementación en la Cyclone IV se logró realizar las dos primeras partes con éxito, logrando realizar la conexión de un solo displays, y luego la conexión a ánodo común para la conexión de 4 displays. La tercera parte, en la separación de unidades decenas y centenas, se logró realizar la práctica hasta la separación de decenas y unidades, pero con la particularidad de que solo el 1 y el 0 correspondían a unidades, mientras que las decenas sí podían corresponder de números del 0 al 9.</p>
+<p>Se procedería a mostrar una evidencia audiovisual, sin embargo, el archivo .mp4 es bastante grande, excediendo la capacidad de GitHub para procesarlo.</p>
 <h2>6. Conclusiones</h2>
+<ol>
+  <li>La implmentación y representación de diversos números en un display de 7 segmentos siempre será posible, bajo el conocimiento aplicado necesario para la comprensión de la realización de una práctica de laboratorio.</li>
+  <i>La comprensión de un display de 7 segmentos es la antesala para la implementación en una pantalla LCD de 8x2 o 16x2, la cual es de un carácter más profesional en el momento de un montaje.</i>
+  <li>Los displays de 7 segmentos parten de la lógica combinacional, no obstante, son elementos que son capaces de trabajar perfectamente en aplicaciones de lógica secuencial, permitiendo se estudio en tales prácticas.</li>
+</ol>
 
 
 
