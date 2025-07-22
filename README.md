@@ -45,16 +45,16 @@ En concordancia con lo dispuesto en la guía, lo que se buscaba era la realizaci
 <h6>Módulo BCDtoSSeg_mod (Módulo de interacción y separación de displays):</h6>
 <img src="img/BCDtoSSeg_mod.png" alt="Código de Separación" width="400"/>
 <h6>Módulos Sumadores de 1 y 4 bits:</h6>
-<img src="sum1b_estruc.png" alt="Sumador de 1 bit" width="400"/>
-<img src="sum4b_estruc.png" alt="Sumador de 4 bits" width="400"/>
+<img src="img/sum1b_estruc.png" alt="Sumador de 1 bit" width="400"/>
+<img src="img/sum4b_estruc.png" alt="Sumador de 4 bits" width="400"/>
 <h6>Módulo freq.div (Módulo de acoplamiento para la señal de clock):</h6>
-<img src="freq_div.png" alt="Divisor de Frecuencia" width="400"/>
+<img src="img/freq_div.png" alt="Divisor de Frecuencia" width="400"/>
 <h6>Módulo top (Módulo principal para instanciamiento de módulos adicionales):</h6>
-<img src="top.png" alt="Módulo top" width="400"/>
+<img src="img/top.png" alt="Módulo top" width="400"/>
 <h2>4. Simulaciones</h2>
 <p>Para la simulación de la práctica, se utilizó el programa Icarus Verilog para determinar la correlación de los diagramas temporales de las variables de estudio.
 <h2>5. Implementación</h2>
-
+<p>Para la implementación en la Cyclone </p>
 <h2>6. Conclusiones</h2>
 
 
