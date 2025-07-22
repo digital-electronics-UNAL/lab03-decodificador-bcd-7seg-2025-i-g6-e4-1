@@ -55,7 +55,7 @@ En concordancia con lo dispuesto en la guía, lo que se buscaba era la realizaci
 <p>Para la simulación de la práctica, se utilizó el programa Icarus Verilog para determinar la correlación de los diagramas temporales de las variables de estudio. A continuación, se presentará la simulación del análisis de algunas de laas variables de estudio en la instanciación del módulo principal para la implementación de la práctica en la Cyclone IV:</p>
 <img src="img/Simulación.png" alt="Simulación" width="400"/>
 <h2>5. Implementación</h2>
-<p>Para la implementación en la Cyclone </p>
+<p>Para la implementación en la Cyclone IV se logró realizar las dos primeras partes con éxito, logrando realizar la conexión de un solo displays, y luego la conexión a ánodo común para la conexión de 4 displays. La tercera parte, en la separación de unidades decenas y centenas, se logró realizar la práctica hasta la separación de decenas y unidades, pero con la particularidad </p>
 <h2>6. Conclusiones</h2>
 
 
